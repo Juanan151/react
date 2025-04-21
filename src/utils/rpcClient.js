@@ -1,5 +1,5 @@
 // utils/rpcClient.js
-const RPC_URL = "http://localhost:8545";
+const RPC_URL = import.meta.env.VITE_API_URL;
 
 // topic0 = keccak256("indexed_id_product_event(int256,string)")
 const TOPIC0_HASH =
