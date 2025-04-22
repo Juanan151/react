@@ -1,0 +1,17 @@
+#node path
+data-path="data" 
+
+#rpc options
+rpc-http-enabled=true
+rpc-http-api=["ETH","NET","WEB3","CLIQUE","ADMIN","DEBUG","TXPOOL"]
+rpc-http-cors-origins=["*"]
+host-allowlist=["*"]
+
+#profile
+profile="PRIVATE" #include txpool="sequence", free gas,...
+
+#chain
+genesis-file="genesis.json" # Path to the custom genesis file
+
+#network bootnode 
+bootnodes=["enode://cc2c1f1b3c49c5f277ccaab4fab8b5c500f59e7870f8b81c80435309e9406e939d0c5a3666446bfd10b1015957eec59fddace975bfe40b371970ee3abdb49e1f@192.168.255.18:30303"]
